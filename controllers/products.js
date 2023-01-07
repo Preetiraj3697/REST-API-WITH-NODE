@@ -24,14 +24,14 @@ const getAllProducts = async(req,res) =>{
     }
     //pagination=====================================================
     let page = Number(req.query.page)  || 1;
-    let limit = Number(req.query.limit) || 3;
+    let limit = Number(req.query.limit) || 5;
     let skip = (page - 1)*limit;
     apiData = apiData.skip(skip).limit(limit);
     //==================================================================
     // console.log(queryObject)
     //req.query for searching ?company=apple&name=watch
-    const myData = await apiData;
-     res.status(200).json({myData,nbHits:myData.length});
+    const Products = await apiData;
+     res.status(200).json({Products,nbHits:Products.length});
 }
 
 const getAllProductsTesting = async(req,res) =>{
