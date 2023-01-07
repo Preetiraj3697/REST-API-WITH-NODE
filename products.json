@@ -2,55 +2,55 @@
     {
         "name":"iphone",
         "price":154,
-        "feature":true,
+        "featured":false,
         "company":"apple"
     },
     {
         "name":"iphone10",
         "price":1154,
-        "feature":true,
+        "featured":false,
         "company":"apple"
     },
     {
         "name":"watch",
         "price":204,
-        "feature":true,
+        "featured":true,
         "company":"apple"
     },
     {
         "name":"samsung s20",
         "price":1504,
-        "feature":true,
+        "featured":false,
         "company":"samsung"
     },
     {
         "name":"Nokia 420",
         "price":1954,
-        "feature":true,
+        "featured":true,
         "company":"nokia"
     },
     {
         "name":"Dell Series",
         "price":1054,
-        "feature":true,
+        "featured":true,
         "company":"dell"
     },
     {
         "name":"galaxy w20",
         "price":1654,
-        "feature":true,
+        "featured":true,
         "company":"samsung"
     },
     {
         "name":"Readme 10",
         "price":154,
-        "feature":true,
+        "featured":true,
         "company":"mi"
     },
     {
         "name":"Macbook Pro",
         "price":154,
-        "feature":true,
+        "featured":true,
         "company":"apple"
     }
 ]
