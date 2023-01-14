@@ -75,3 +75,10 @@ like
 }
 ```
 
+## Functionality 
+1. Sorting by name
+2. Sorting by price
+3. Searching by anything like name price featured etc.
+4. Pagination 
+5. Registere
+6. Login
